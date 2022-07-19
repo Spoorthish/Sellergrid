@@ -1,0 +1,25 @@
+{
+    "i95dev_sellercontact": {
+        "column": {
+            "id": true,
+            "first_name": true,
+            "last_name": true,
+            "email": true,
+            "phone": true,
+            "message": true,
+            "status": true,
+            "image": true,
+            "created_at": true
+        },
+        "index": {
+            "I95DEV_SELLERCONTACT_FIRST_NAME": true,
+            "I95DEV_SELLERCONTACT_LAST_NAME": true,
+            "I95DEV_SELLERCONTACT_EMAIL": true,
+            "I95DEV_SELLERCONTACT_MESSAGE": true,
+            "I95DEV_SELLERCONTACT_IMAGE": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
